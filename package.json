@@ -3,8 +3,15 @@
   "version": "1.95.0",
   "private": true,
   "engines": {
-    "node": ">=20.15",
-    "pnpm": ">=10.2.1"
+    "name": "n8n-on-render",
+    "version": "1.0.0",
+    "description": "n8n deployment on Render",
+    "engines": {
+    "node": ">=18.17 <=22"
+    },
+    "dependencies": {
+      "n8n": "latest"
+    }
   },
   "packageManager": "pnpm@10.2.1",
   "scripts": {
